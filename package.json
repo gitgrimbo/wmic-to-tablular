@@ -1,0 +1,51 @@
+{
+  "name": "wmic-to-tablular",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Paul Grime",
+    "email": "gitgrimbo@gmail.com",
+    "url": "https://github.com/gitgrimbo"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-google": "^0.6.0"
+  },
+  "eslintConfig": {
+    "extends": "google",
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "windows"
+      ],
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitgrimbo/wmic-to-tabular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gitgrimbo/wmic-to-tabular/issues"
+  },
+  "homepage": "https://github.com/gitgrimbo/wmic-to-tabular#readme",
+  "description": "Parse wmic output into structured data.",
+  "keywords": [
+    "wmic",
+    "tsv",
+    "csv"
+  ]
+}
